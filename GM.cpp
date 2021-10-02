@@ -279,14 +279,14 @@ void infos_item(int id){
 ostream& infos_stock(ostream& out)const{  // Display all item informations + Availability
 	
 	cout << " Would you want to discover our products ? "  << endl;
-	
+	/*
 	for ( const auto& exp:Stock){
 		out << "---------- Stock informations ------------" << endl;
 		out << "\n";
 		out << *exp << endl;
 		
 	}
-	
+	*/
 	return out;
 }
 
@@ -431,7 +431,7 @@ int main(){
  
  proprio.Updatefile();
  
- 
+ //printf ("%d\r\n", item1):
 
 
 return 0;	
